@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN pip install pytest
+RUN pip install requirements.txt
 
 CMD  [ "python", "./test.py" ]
